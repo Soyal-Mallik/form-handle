@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formContainer{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(76, 96, 96);
+    
+
+}
+.formContainer h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.inputGroup{
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(74, 74, 100);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkblue;
+}
